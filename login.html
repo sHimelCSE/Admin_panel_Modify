@@ -1,54 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="css/fontAwesomeAll.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/login.css">
-</head>
-<body>
-    <div class="container-fluid mt-5 login_outer">
-        <div class="row">
-            <div class="col-10 col-xl-3 col-lg-4 col-md-6 col-sm-8 mx-auto mt-5 login text-center">
-                <div class="card">
-                    <div class="card-header">
-                        <p>Sign-in to Continue</p>
-                    </div>
-                    <div class="card-body">
-                        <span class="h4 d-block">LOGIN</span>
-                        <form action="index.html" method="">
-                            <div class="">
-                                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" required class="form-control">
-                            </div>
-                            <div class="my-2">
-                                <input type="password" pattern=".{5,}" title="Five or more characters" placeholder="Password" required class="form-control">
-                            </div>
-                            
-                            <div class="mb-2 d-grid ">
-                                <button type="submit" class="btn btn-primary ">Sign In</button>
-                            </div>
-                            <div class="">
-                                <div class="float-start">
-                                    <input type="checkbox" name="checkbox" id="checkbox" class="form-check-input" value="remember-me">
-                                    <span>Remember Me</span>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+        <link rel="stylesheet" href="css/fontAwesomeAll.min.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/login.css" />
+    </head>
+    <body>
+        <div class="container-fluid mt-5 login_outer">
+            <div class="row">
+                <div class="col-10 col-xl-3 col-lg-4 col-md-6 col-sm-8 mx-auto mt-5 login text-center">
+                    <div class="card">
+                        <div class="card-header">
+                            <p>Sign-in to Continue</p>
+                        </div>
+                        <div class="card-body">
+                            <span class="h4 d-block">LOGIN</span>
+                            <form action="index.html" method="">
+                                <div class="">
+                                    <input type="email" placeholder="Email" required class="form-control" />
                                 </div>
-                                <div class="float-end text-end ">
-                                    <a href="#" class="text-decoration-none"><p>Need help?</p> </a>
-                                    <a href="#" class="text-decoration-none"><p>Create an account</p> </a>
+                                <div class="my-2">
+                                    <input type="password" pattern=".{5,}" title="Five or more characters" placeholder="Password" required class="form-control" />
                                 </div>
-                            </div>
-                        </form>
+
+                                <div class="mb-2 d-grid">
+                                    <button type="submit" class="btn btn-primary">Sign In</button>
+                                </div>
+                                <div class="">
+                                    <div class="float-start">
+                                        <input type="checkbox" name="checkbox" id="checkbox" class="form-check-input" value="remember-me" />
+                                        <span>Remember Me</span>
+                                    </div>
+                                    <div class="float-end text-end">
+                                        <a href="#" class="text-decoration-none"><p>Need help?</p> </a>
+                                        <a href="#" class="text-decoration-none"><p>Create an account</p> </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/login.js"></script>
-</body>
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/login.js"></script>
+    </body>
 </html>
